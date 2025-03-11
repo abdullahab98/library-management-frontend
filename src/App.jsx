@@ -4,23 +4,12 @@ import AddBook from "./component/AddBook.jsx";
 
 
 
-function App() {
-    // const [books, setBooks] = useState([]);
-    // const fetchBooks = async () => {
-    //     try{
-    //         const response = await axios.get("http://localhost:8080/book/get-all");
-    //         setBooks(response.data);
-    //         console.log(response.data);
-    //     } catch (error){
-    //         console.error("Error fetching users", error);
-    //     }
-    // }
 
+function App() {
   return (
     <>
-        {/*<NavBar></NavBar>*/}
         <AddBook></AddBook>
-        <BookTable ></BookTable>
+        <BookTable></BookTable>
 
 
     </>
